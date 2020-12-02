@@ -9,7 +9,7 @@ public class Flock : MonoBehaviour
     public FlockAgent agentPrefab;
     public FlockBehavior behaviour;
 
-    [Range(30, 10000)]
+    [Range(30, 1000)]
     public int boids = 30;
     [Range(1f, 100f)]
     public float driveFactor = 10f;
