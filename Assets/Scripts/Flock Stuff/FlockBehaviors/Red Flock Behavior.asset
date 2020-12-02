@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468fceb97331f4f4c8712b1c46015afb, type: 3}
+  m_Name: Red Flock Behavior
+  m_EditorClassIdentifier: 
+  behaviors:
+  - {fileID: 11400000, guid: d023d5d95cf6f6e43ab6cc1bb770aa06, type: 2}
+  - {fileID: 11400000, guid: 92936fb9be0242b42bdeaea002ebcbc8, type: 2}
+  - {fileID: 11400000, guid: 68380444b7fd5cf4aaacd263a1fd56f3, type: 2}
+  - {fileID: 11400000, guid: ae559a2fe6f8ed04a8b60e1f4c864a95, type: 2}
+  - {fileID: 11400000, guid: 1cf13128fef50a545bd92304814309bb, type: 2}
+  weights:
+  - 14
+  - 1
+  - 1
+  - 1
+  - 5
